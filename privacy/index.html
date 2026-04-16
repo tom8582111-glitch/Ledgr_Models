@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="zh-HK">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ledgr — Privacy Policy</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --gold: #F5C518;
+            --gold-dim: rgba(245,197,24,0.1);
+            --bg: #080808;
+            --bg2: #0F0F0F;
+            --bg3: #161616;
+            --border: rgba(255,255,255,0.07);
+            --text: #F0F0F0;
+            --muted: rgba(255,255,255,0.4);
+            --muted2: rgba(255,255,255,0.2);
+        }
+        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; }
+        body { background: var(--bg); color: var(--text); font-family: 'DM Sans', sans-serif; font-size: 15px; line-height: 1.75; overflow-x: hidden; }
+
+        /* Language toggle */
+        .lang-bar { position: fixed; top: 24px; right: 24px; z-index: 100; display: flex; background: rgba(15,15,15,0.8); border: 1px solid var(--border); border-radius: 999px; padding: 4px; backdrop-filter: blur(20px); gap: 2px; }
+        .lang-btn { padding: 6px 18px; border-radius: 999px; border: none; background: transparent; color: var(--muted); font-family: 'Bebas Neue', sans-serif; font-size: 13px; font-weight: 600; cursor: pointer; transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1); letter-spacing: 0.5px; }
+        .lang-btn.active { background: var(--gold); color: #000; }
+
+        /* Hero */
+        .hero { min-height: 100vh; display: flex; flex-direction: column; justify-content: center; padding: 120px 48px 80px; position: relative; overflow: hidden; }
+        .glow { position: absolute; top: -150px; left: -150px; width: 500px; height: 500px; background: radial-gradient(circle, rgba(245,197,24,0.07) 0%, transparent 70%); animation: drift 10s ease-in-out infinite alternate; pointer-events: none; }
+        .glow2 { top: auto; left: auto; bottom: -100px; right: -100px; width: 400px; height: 400px; background: radial-gradient(circle, rgba(245,197,24,0.04) 0%, transparent 70%); animation: drift2 12s ease-in-out infinite alternate; }
+        @keyframes drift { from { transform: translate(0,0) scale(1); } to { transform: translate(50px,30px) scale(1.15); } }
+        @keyframes drift2 { from { transform: translate(0,0); } to { transform: translate(-40px,-40px) scale(1.1); } }
+        .watermark { position: absolute; right: -20px; bottom: 40px; font-family: 'Bebas Neue', sans-serif; font-size: clamp(80px, 15vw, 160px); font-weight: 800; color: rgba(255,255,255,0.015); letter-spacing: -4px; pointer-events: none; line-height: 1; user-select: none; }
+        .hero-inner { max-width: 800px; position: relative; z-index: 1; }
+        .badge { display: inline-flex; align-items: center; gap: 8px; background: rgba(245,197,24,0.08); border: 1px solid rgba(245,197,24,0.2); border-radius: 999px; padding: 6px 16px; margin-bottom: 32px; font-size: 12px; font-weight: 500; color: var(--gold); letter-spacing: 1.5px; text-transform: uppercase; }
+        .badge::before { content: ''; width: 6px; height: 6px; background: var(--gold); border-radius: 50%; animation: blink 2s ease-in-out infinite; }
+        @keyframes blink { 0%,100%{opacity:1;} 50%{opacity:0.3;} }
+        .hero h1 { font-family: 'Bebas Neue', sans-serif; font-size: clamp(52px, 8vw, 100px); font-weight: 400; line-height: 1.0; letter-spacing: 2px; margin-bottom: 28px; }
+        .hero h1 .gold { color: var(--gold); }
+        .hero h1 .dim { color: rgba(255,255,255,0.2); }
+        .hero-meta { display: flex; gap: 32px; flex-wrap: wrap; }
+        .meta-item { display: flex; flex-direction: column; gap: 4px; }
+        .meta-label { font-size: 10px; color: var(--muted2); letter-spacing: 2px; text-transform: uppercase; font-weight: 600; }
+        .meta-value { font-size: 14px; color: var(--muted); font-family: 'Bebas Neue', sans-serif; font-weight: 600; }
+        .scroll-hint { position: absolute; bottom: 40px; left: 48px; display: flex; align-items: center; gap: 12px; color: var(--muted2); font-size: 11px; letter-spacing: 2px; text-transform: uppercase; }
+        .scroll-line { width: 40px; height: 1px; background: rgba(255,255,255,0.1); position: relative; overflow: hidden; }
+        .scroll-line::after { content: ''; position: absolute; top: 0; left: -100%; width: 100%; height: 100%; background: var(--gold); animation: sweep 2s ease-in-out infinite; }
+        @keyframes sweep { 0%{left:-100%;} 100%{left:100%;} }
+
+        /* Main */
+        .main-wrap { max-width: 860px; margin: 0 auto; padding: 20px 48px 120px; }
+
+        /* Sections */
+        .section { margin-bottom: 72px; opacity: 0; transform: translateY(28px); transition: opacity 0.65s cubic-bezier(0.16,1,0.3,1), transform 0.65s cubic-bezier(0.16,1,0.3,1); }
+        .section.in { opacity: 1; transform: translateY(0); }
+        .section-header { display: flex; align-items: center; gap: 14px; margin-bottom: 28px; padding-bottom: 18px; border-bottom: 1px solid var(--border); }
+        .section-num { font-family: 'Bebas Neue', sans-serif; font-size: 11px; font-weight: 700; color: var(--gold); letter-spacing: 2px; background: rgba(245,197,24,0.08); border: 1px solid rgba(245,197,24,0.15); padding: 4px 10px; border-radius: 6px; flex-shrink: 0; }
+        .section-title { font-family: 'Bebas Neue', sans-serif; font-size: 21px; font-weight: 700; letter-spacing: -0.3px; }
+
+        /* Highlight */
+        .highlight { background: linear-gradient(135deg, rgba(245,197,24,0.06), rgba(245,197,24,0.02)); border: 1px solid rgba(245,197,24,0.15); border-radius: 14px; padding: 20px 24px; margin: 20px 0; display: flex; gap: 14px; align-items: flex-start; }
+        .highlight-icon { font-size: 18px; flex-shrink: 0; margin-top: 1px; }
+        .highlight p { font-size: 14px; color: rgba(245,197,24,0.8); line-height: 1.65; margin: 0; }
+
+        /* Cards grid */
+        .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; margin: 20px 0; }
+        .card { background: var(--bg2); border: 1px solid var(--border); border-radius: 16px; padding: 22px 22px; transition: border-color 0.3s, transform 0.3s; }
+        .card:hover { border-color: rgba(245,197,24,0.2); transform: translateY(-2px); }
+        .card-icon { font-size: 22px; margin-bottom: 12px; }
+        .card-label { font-family: 'Bebas Neue', sans-serif; font-size: 12px; font-weight: 700; color: var(--gold); letter-spacing: 1px; margin-bottom: 14px; text-transform: uppercase; }
+        .card.muted .card-label { color: var(--muted); }
+        .card ul { list-style: none; }
+        .card ul li { font-size: 13px; color: var(--muted); padding: 5px 0 5px 16px; position: relative; border-bottom: 1px solid rgba(255,255,255,0.04); }
+        .card ul li:last-child { border-bottom: none; }
+        .card ul li::before { content: '›'; position: absolute; left: 0; color: var(--gold); }
+        .card.muted ul li::before { color: var(--muted2); }
+
+        /* List */
+        .list { list-style: none; margin: 16px 0; }
+        .list li { padding: 10px 0 10px 24px; position: relative; color: rgba(255,255,255,0.6); font-size: 14px; border-bottom: 1px solid rgba(255,255,255,0.04); }
+        .list li:last-child { border-bottom: none; }
+        .list li::before { content: '—'; position: absolute; left: 0; color: var(--gold); }
+        .list li strong { color: rgba(255,255,255,0.9); font-weight: 500; }
+        .body-p { color: rgba(255,255,255,0.55); font-size: 14px; margin-bottom: 14px; }
+
+        /* Services */
+        .services { background: var(--bg2); border: 1px solid var(--border); border-radius: 16px; overflow: hidden; margin: 20px 0; }
+        .svc { display: flex; align-items: center; justify-content: space-between; padding: 16px 22px; border-bottom: 1px solid var(--border); gap: 12px; transition: background 0.2s; }
+        .svc:last-child { border-bottom: none; }
+        .svc:hover { background: rgba(255,255,255,0.02); }
+        .svc-name { font-family: 'Bebas Neue', sans-serif; font-size: 14px; font-weight: 600; color: white; }
+        .svc-purpose { font-size: 12.5px; color: var(--muted); margin-top: 2px; }
+        .svc-tag { font-size: 11px; font-family: 'Bebas Neue', sans-serif; font-weight: 600; padding: 4px 10px; border-radius: 6px; background: rgba(255,255,255,0.04); border: 1px solid var(--border); color: var(--muted); white-space: nowrap; flex-shrink: 0; }
+        .svc-tag.local { color: #30D158; border-color: rgba(48,209,88,0.25); background: rgba(48,209,88,0.06); }
+
+        /* Rights */
+        .rights { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 10px; margin: 20px 0; }
+        .right { background: var(--bg2); border: 1px solid var(--border); border-radius: 12px; padding: 18px 18px; transition: all 0.25s; }
+        .right:hover { border-color: rgba(245,197,24,0.2); transform: translateY(-2px); }
+        .right-icon { font-size: 20px; margin-bottom: 10px; }
+        .right-title { font-family: 'Bebas Neue', sans-serif; font-size: 13px; font-weight: 700; color: white; margin-bottom: 5px; }
+        .right-desc { font-size: 12px; color: var(--muted); line-height: 1.5; }
+
+        /* Contact */
+        .contact-card { background: linear-gradient(135deg, rgba(245,197,24,0.07), rgba(245,197,24,0.02)); border: 1px solid rgba(245,197,24,0.18); border-radius: 20px; padding: 36px 40px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 24px; }
+        .contact-card h3 { font-family: 'Bebas Neue', sans-serif; font-size: 22px; font-weight: 800; margin-bottom: 6px; letter-spacing: -0.3px; }
+        .contact-card p { color: var(--muted); font-size: 14px; }
+        .email-btn { display: inline-flex; align-items: center; gap: 10px; background: var(--gold); color: #000; font-family: 'Bebas Neue', sans-serif; font-size: 14px; font-weight: 700; padding: 14px 28px; border-radius: 12px; text-decoration: none; transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1); white-space: nowrap; }
+        .email-btn:hover { transform: translateY(-3px) scale(1.03); box-shadow: 0 16px 36px rgba(245,197,24,0.25); }
+
+        /* Footer */
+        footer { border-top: 1px solid var(--border); padding: 36px 48px; display: flex; justify-content: space-between; align-items: center; max-width: 860px; margin: 0 auto; flex-wrap: wrap; gap: 16px; }
+        .footer-logo { font-family: 'Bebas Neue', sans-serif; font-size: 15px; font-weight: 800; letter-spacing: 3px; }
+        .footer-logo span { color: var(--gold); }
+        .footer-copy { font-size: 12px; color: var(--muted2); }
+
+        /* Language switching */
+        .zh, .zhi { }
+        .en, .eni { }
+
+        @media (max-width: 640px) {
+            .hero { padding: 90px 24px 60px; }
+            .hero h1 { font-size: 34px; letter-spacing: -1px; }
+            .main-wrap { padding: 20px 24px 80px; }
+            footer { padding: 28px 24px; }
+            .lang-bar { top: 14px; right: 14px; }
+            .contact-card { padding: 24px; flex-direction: column; align-items: flex-start; }
+            .cards { grid-template-columns: 1fr; }
+            .rights { grid-template-columns: 1fr 1fr; }
+            .scroll-hint { display: none; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="lang-bar">
+    <button class="lang-btn active" onclick="setLang('zh')">中文</button>
+    <button class="lang-btn" onclick="setLang('en')">EN</button>
+</div>
+
+<section class="hero">
+    <div class="glow"></div>
+    <div class="glow glow2"></div>
+    <div class="watermark">PRIVACY</div>
+    <div class="hero-inner">
+        <div class="badge"><span class="zhi">私隱政策</span><span class="eni">Privacy Policy</span></div>
+        <h1>
+            <span class="zh">你的錢，<br><span class="gold">你的數據。</span><br><span class="dim">我們只是管家。</span></span>
+            <div class="en" style="display:none">Your money,<br><span class="gold">your data.</span><br><span class="dim">We just keep the books.</span></div>
+        </h1>
+        <div class="hero-meta">
+            <div class="meta-item">
+                <span class="meta-label"><span class="zhi">最後更新</span><span class="eni">Last Updated</span></span>
+                <span class="meta-value">April 2026</span>
+            </div>
+            <div class="meta-item">
+                <span class="meta-label"><span class="zhi">適用產品</span><span class="eni">Product</span></span>
+                <span class="meta-value">Ledgr iOS</span>
+            </div>
+            <div class="meta-item">
+                <span class="meta-label"><span class="zhi">適用地區</span><span class="eni">Region</span></span>
+                <span class="meta-value">Worldwide</span>
+            </div>
+        </div>
+    </div>
+    <div class="scroll-hint">
+        <div class="scroll-line"></div>
+        <span class="zhi">向下滾動</span><span class="eni">Scroll down</span>
+    </div>
+</section>
+
+<div class="main-wrap">
+
+    <div class="section">
+        <div class="highlight">
+            <div class="highlight-icon">💡</div>
+            <p>
+                <span class="zh"><strong style="color:#F5C518">簡單版本：</strong>Ledgr 是本地優先的記帳工具。你的財務數據儲存在你自己的設備上。我們不出售你的數據，不作廣告用途。</span>
+                <span class="en"><strong style="color:#F5C518">TL;DR:</strong> Ledgr is local-first. Your financial data lives on your device. We don't sell your data or use it for advertising. Ever.</span>
+            </p>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-header">
+            <span class="section-num">01</span>
+            <h2 class="section-title"><span class="zh">我們收集什麼數據</span><span class="en">Data We Collect</span></h2>
+        </div>
+        <div class="cards">
+            <div class="card">
+                <div class="card-icon">✍️</div>
+                <div class="card-label"><span class="zhi">你主動提供</span><span class="eni">You Provide</span></div>
+                <ul>
+                    <li><span class="zhi">交易記錄（商戶、金額、日期）</span><span class="eni">Transactions (merchant, amount, date)</span></li>
+                    <li><span class="zhi">帳戶資訊（卡名、餘額）</span><span class="eni">Account info (card name, balance)</span></li>
+                    <li><span class="zhi">個人目標與預算設定</span><span class="eni">Goals & budget preferences</span></li>
+                    <li><span class="zhi">用戶名稱</span><span class="eni">Display name</span></li>
+                </ul>
+            </div>
+            <div class="card">
+                <div class="card-icon">📡</div>
+                <div class="card-label"><span class="zhi">自動收集</span><span class="eni">Auto-Collected</span></div>
+                <ul>
+                    <li><span class="zhi">位置（旅遊模式開啟時）</span><span class="eni">Location (Travel Mode only)</span></li>
+                    <li><span class="zhi">相機 / 相簿（OCR 掃描）</span><span class="eni">Camera / Photos (OCR scanning)</span></li>
+                    <li><span class="zhi">Firebase 匿名用戶 ID</span><span class="eni">Firebase anonymous user ID</span></li>
+                    <li><span class="zhi">通知權限狀態</span><span class="eni">Notification permission status</span></li>
+                </ul>
+            </div>
+            <div class="card muted">
+                <div class="card-icon">🚫</div>
+                <div class="card-label"><span class="zhi">絕不收集</span><span class="eni">Never Collected</span></div>
+                <ul>
+                    <li><span class="zhi">真實銀行帳號或密碼</span><span class="eni">Bank account numbers or passwords</span></li>
+                    <li><span class="zhi">信用卡完整卡號</span><span class="eni">Full credit card numbers</span></li>
+                    <li><span class="zhi">身份證明文件</span><span class="eni">ID documents</span></li>
+                    <li><span class="zhi">廣告追蹤識別碼</span><span class="eni">Advertising identifiers (IDFA)</span></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-header">
+            <span class="section-num">02</span>
+            <h2 class="section-title"><span class="zh">數據如何使用</span><span class="en">How We Use Your Data</span></h2>
+        </div>
+        <ul class="list">
+            <li><span class="zhi">提供記帳、回贈計算及財務分析功能</span><span class="eni">Provide budgeting, rebate calculation, and analytics</span></li>
+            <li><span class="zhi">透過 Firebase 在你的多部設備之間同步數據</span><span class="eni">Sync your data across your devices via Firebase</span></li>
+            <li><span class="zhi">AI 分析收據圖片以自動填寫交易資訊</span><span class="eni">AI analysis of receipts to auto-fill transaction details</span></li>
+            <li><span class="zhi">位置數據僅用於自動偵測旅遊模式</span><span class="eni">Location is used solely to detect travel mode — nothing else</span></li>
+            <li><span class="zhi">發送入帳確認通知</span><span class="eni">Send transaction confirmation notifications</span></li>
+        </ul>
+        <div class="highlight">
+            <div class="highlight-icon">🔒</div>
+            <p><span class="zh">我們不會將你的財務數據用於廣告或市場分析，也不會出售予任何第三方。Ledgr 的收入來自 App 本身，不來自你的數據。</span><span class="en">We never use your financial data for advertising or market research, and never sell it to any third party. Ledgr's revenue comes from the app itself — not from you.</span></p>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-header">
+            <span class="section-num">03</span>
+            <h2 class="section-title"><span class="zh">數據儲存與安全</span><span class="en">Storage & Security</span></h2>
+        </div>
+        <p class="body-p"><span class="zh">Ledgr 採用本地優先架構，你的數據首先屬於你的設備。</span><span class="en">Ledgr is built local-first. Your data lives on your device before anywhere else.</span></p>
+        <ul class="list">
+            <li><strong><span class="zhi">本地儲存</span><span class="eni">Local</span></strong> — <span class="zhi">所有數據首先儲存在你的 iPhone（SwiftData）</span><span class="eni">All data stored on your iPhone first (SwiftData)</span></li>
+            <li><strong><span class="zhi">雲端備份</span><span class="eni">Cloud backup</span></strong> — <span class="zhi">Firebase（美國伺服器），以匿名 UID 加密</span><span class="eni">Firebase (US servers), encrypted with anonymous UID</span></li>
+            <li><strong><span class="zhi">本地 AI</span><span class="eni">On-device AI</span></strong> — <span class="zhi">Llama 3.2 完全在設備上運行，不上傳任何數據</span><span class="eni">Llama 3.2 runs entirely on-device. Nothing ever leaves your phone</span></li>
+            <li><strong><span class="zhi">雲端 AI</span><span class="eni">Cloud AI</span></strong> — <span class="zhi">使用 Gemini 時，收據圖片發送至 Google 後即時刪除</span><span class="eni">When using Gemini, receipt images are sent to Google and deleted immediately after processing</span></li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <div class="section-header">
+            <span class="section-num">04</span>
+            <h2 class="section-title"><span class="zh">第三方服務</span><span class="en">Third-Party Services</span></h2>
+        </div>
+        <div class="services">
+            <div class="svc">
+                <div><div class="svc-name">Google Firebase</div><div class="svc-purpose"><span class="zhi">數據同步、身份驗證</span><span class="eni">Data sync & authentication</span></div></div>
+                <span class="svc-tag">firebase.google.com</span>
+            </div>
+            <div class="svc">
+                <div><div class="svc-name">Google Gemini API</div><div class="svc-purpose"><span class="zhi">AI 收據分析</span><span class="eni">AI receipt analysis</span></div></div>
+                <span class="svc-tag">ai.google.dev</span>
+            </div>
+            <div class="svc">
+                <div><div class="svc-name">SiliconFlow (DeepSeek)</div><div class="svc-purpose"><span class="zhi">內地地區備用 AI</span><span class="eni">Mainland China backup AI</span></div></div>
+                <span class="svc-tag">siliconflow.cn</span>
+            </div>
+            <div class="svc">
+                <div><div class="svc-name">Llama 3.2 (Meta)</div><div class="svc-purpose"><span class="zhi">本地離線 AI — 不上傳任何數據</span><span class="eni">On-device AI — no data ever uploaded</span></div></div>
+                <span class="svc-tag local"><span class="zhi">本地</span><span class="eni">Local only</span></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-header">
+            <span class="section-num">05</span>
+            <h2 class="section-title"><span class="zh">你的數據權利</span><span class="en">Your Rights</span></h2>
+        </div>
+        <div class="rights">
+            <div class="right"><div class="right-icon">👁</div><div class="right-title"><span class="zhi">查閱</span><span class="eni">Access</span></div><div class="right-desc"><span class="zhi">所有數據均在 app 內可見</span><span class="eni">All data visible within the app</span></div></div>
+            <div class="right"><div class="right-icon">✏️</div><div class="right-title"><span class="zhi">更正</span><span class="eni">Correct</span></div><div class="right-desc"><span class="zhi">直接在 app 內編輯任何記錄</span><span class="eni">Edit any record directly in-app</span></div></div>
+            <div class="right"><div class="right-icon">🗑</div><div class="right-title"><span class="zhi">刪除</span><span class="eni">Delete</span></div><div class="right-desc"><span class="zhi">設定 → 數據與系統 → 清除所有數據</span><span class="eni">Settings → Data → Clear all data</span></div></div>
+            <div class="right"><div class="right-icon">📍</div><div class="right-title"><span class="zhi">位置</span><span class="eni">Location</span></div><div class="right-desc"><span class="zhi">在 iPhone 設定中隨時關閉</span><span class="eni">Disable anytime in iPhone Settings</span></div></div>
+            <div class="right"><div class="right-icon">🔔</div><div class="right-title"><span class="zhi">通知</span><span class="eni">Notifications</span></div><div class="right-desc"><span class="zhi">在 iPhone 設定中隨時關閉</span><span class="eni">Disable anytime in iPhone Settings</span></div></div>
+            <div class="right"><div class="right-icon">☁️</div><div class="right-title"><span class="zhi">刪除帳號</span><span class="eni">Delete Account</span></div><div class="right-desc"><span class="zhi">聯絡我們即可完全刪除雲端數據</span><span class="eni">Contact us to permanently delete cloud data</span></div></div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-header">
+            <span class="section-num">06</span>
+            <h2 class="section-title"><span class="zh">兒童私隱</span><span class="en">Children's Privacy</span></h2>
+        </div>
+        <p class="body-p"><span class="zh">Ledgr 不針對 13 歲以下兒童。我們不會故意收集兒童的個人信息。如果你認為我們錯誤地收集了兒童數據，請立即聯絡我們，我們將盡快刪除相關信息。</span><span class="en">Ledgr is not directed at children under 13. We do not knowingly collect personal information from children. If you believe we have inadvertently collected such data, please contact us immediately and we will delete it promptly.</span></p>
+    </div>
+
+    <div class="section">
+        <div class="section-header">
+            <span class="section-num">07</span>
+            <h2 class="section-title"><span class="zh">政策更新</span><span class="en">Policy Updates</span></h2>
+        </div>
+        <p class="body-p"><span class="zh">我們可能不時更新此私隱政策。重大變更會在 app 內通知用戶。繼續使用 Ledgr 即表示你接受最新版本的政策。</span><span class="en">We may update this Privacy Policy from time to time. Significant changes will be notified within the app. Continued use of Ledgr constitutes acceptance of the updated policy.</span></p>
+    </div>
+
+    <div class="section">
+        <div class="section-header">
+            <span class="section-num">08</span>
+            <h2 class="section-title"><span class="zh">聯絡我們</span><span class="en">Contact Us</span></h2>
+        </div>
+        <div class="contact-card">
+            <div>
+                <h3><span class="zh">有任何問題？</span><span class="en">Have questions?</span></h3>
+                <p><span class="zh">我們承諾在 3 個工作天內回覆所有私隱相關查詢。</span><span class="en">We respond to all privacy inquiries within 3 business days.</span></p>
+            </div>
+            <a href="mailto:support@ledgr.app" class="email-btn">support@ledgr.app →</a>
+        </div>
+    </div>
+
+</div>
+
+<footer>
+    <div class="footer-logo"><span>L</span>EDGR</div>
+    <div class="footer-copy"><span class="zhi">© 2026 Ledgr · 保留所有權利</span><span class="eni">© 2026 Ledgr · All rights reserved</span></div>
+</footer>
+
+<script>
+function setLang(lang) {
+    // 顯示/隱藏所有語言元素
+    document.querySelectorAll('.zh, .en, .zhi, .eni').forEach(el => {
+        const isZh = el.classList.contains('zh') || el.classList.contains('zhi');
+        const isEn = el.classList.contains('en') || el.classList.contains('eni');
+        if (lang === 'zh') {
+            el.style.display = isZh ? '' : 'none';
+        } else {
+            el.style.display = isEn ? '' : 'none';
+        }
+    });
+    document.querySelectorAll('.lang-btn').forEach((btn, i) => {
+        btn.classList.toggle('active', (lang === 'zh' && i === 0) || (lang === 'en' && i === 1));
+    });
+    window._lang = lang;
+}
+
+// 初始化：中文預設
+document.querySelectorAll('.en, .eni').forEach(el => el.style.display = 'none');
+document.querySelectorAll('.zh, .zhi').forEach(el => el.style.display = '');
+window._lang = 'zh';
+
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add('in');
+            observer.unobserve(entry.target);
+        }
+    });
+}, { threshold: 0.06, rootMargin: '0px 0px -30px 0px' });
+
+document.querySelectorAll('.section').forEach(s => observer.observe(s));
+</script>
+</body>
+</html>
