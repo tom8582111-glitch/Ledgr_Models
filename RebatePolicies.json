@@ -1,0 +1,3210 @@
+[
+  {
+    "accountName": "Red Card",
+    "rules": [
+      {
+        "category": "網購",
+        "rebateRate": 0.04,
+        "monthlyCap": 10000,
+        "hasCap": true,
+        "fallbackRate": 0.004,
+        "minSpend": 0
+      },
+      {
+        "category": "超市",
+        "rebateRate": 0.02,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.004,
+        "minSpend": 0
+      },
+      {
+        "category": "餐飲",
+        "rebateRate": 0.01,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.004,
+        "minSpend": 0
+      },
+      {
+        "category": "一般支出",
+        "rebateRate": 0.004,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.004,
+        "minSpend": 0
+      },
+      {
+        "category": "海外",
+        "rebateRate": 0.01,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.004,
+        "minSpend": 0
+      }
+    ],
+    "applePayAliases": [
+      "HSBC Red",
+      "匯豐 Red",
+      "Red Credit Card",
+      "HSBC Red Credit Card",
+      "滙豐Red"
+    ],
+    "rebateType": "rewardcash",
+    "rebateProgram": "HSBC RewardCash",
+    "applePayRate": 0.0
+  },
+  {
+    "accountName": "EveryMile Card",
+    "rules": [
+      {
+        "category": "交通",
+        "rebateRate": 0.05,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.01,
+        "minSpend": 0
+      },
+      {
+        "category": "餐飲",
+        "rebateRate": 0.01,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.01,
+        "minSpend": 0
+      },
+      {
+        "category": "超市",
+        "rebateRate": 0.01,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.01,
+        "minSpend": 0
+      },
+      {
+        "category": "一般支出",
+        "rebateRate": 0.01,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.01,
+        "minSpend": 0
+      },
+      {
+        "category": "海外",
+        "rebateRate": 0.025,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.01,
+        "minSpend": 0
+      }
+    ],
+    "applePayAliases": [
+      "HSBC EveryMile",
+      "EveryMile",
+      "匯豐 EveryMile",
+      "滙豐 EveryMile"
+    ],
+    "rebateType": "rewardcash",
+    "rebateProgram": "HSBC RewardCash",
+    "applePayRate": 0.0
+  },
+  {
+    "accountName": "Visa Signature",
+    "rules": [
+      {
+        "category": "餐飲",
+        "rebateRate": 0.036,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.004,
+        "minSpend": 0
+      },
+      {
+        "category": "超市",
+        "rebateRate": 0.036,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.004,
+        "minSpend": 0
+      },
+      {
+        "category": "網購",
+        "rebateRate": 0.036,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.004,
+        "minSpend": 0
+      },
+      {
+        "category": "一般支出",
+        "rebateRate": 0.004,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.004,
+        "minSpend": 0
+      },
+      {
+        "category": "海外",
+        "rebateRate": 0.036,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.004,
+        "minSpend": 0
+      }
+    ],
+    "applePayAliases": [
+      "HSBC Visa Signature",
+      "匯豐 Visa Signature",
+      "滙豐 Visa Signature"
+    ],
+    "rebateType": "rewardcash",
+    "rebateProgram": "HSBC RewardCash",
+    "applePayRate": 0.0
+  },
+  {
+    "accountName": "HSBC Dual Currency Diamond Card",
+    "rules": [
+      {
+        "category": "餐飲",
+        "rebateRate": 0.044,
+        "monthlyCap": 8000,
+        "hasCap": true,
+        "fallbackRate": 0.004,
+        "minSpend": 0
+      },
+      {
+        "category": "超市",
+        "rebateRate": 0.044,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.004,
+        "minSpend": 0
+      },
+      {
+        "category": "一般支出",
+        "rebateRate": 0.004,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.004,
+        "minSpend": 0
+      },
+      {
+        "category": "海外",
+        "rebateRate": 0.044,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.004,
+        "minSpend": 0
+      }
+    ],
+    "applePayAliases": [
+      "HSBC Diamond",
+      "Dual Currency Diamond",
+      "匯豐雙幣鑽石",
+      "滙豐 Diamond"
+    ],
+    "rebateType": "rewardcash",
+    "rebateProgram": "HSBC RewardCash",
+    "applePayRate": 0.0
+  },
+  {
+    "accountName": "白金 Visa 卡",
+    "rules": [
+      {
+        "category": "超市",
+        "rebateRate": 0.024,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.004,
+        "minSpend": 0
+      },
+      {
+        "category": "餐飲",
+        "rebateRate": 0.024,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.004,
+        "minSpend": 0
+      },
+      {
+        "category": "一般支出",
+        "rebateRate": 0.004,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.004,
+        "minSpend": 0
+      },
+      {
+        "category": "海外",
+        "rebateRate": 0.024,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.004,
+        "minSpend": 0
+      }
+    ],
+    "applePayAliases": [
+      "HSBC Platinum",
+      "匯豐白金",
+      "滙豐白金 Visa",
+      "Platinum Visa"
+    ],
+    "rebateType": "rewardcash",
+    "rebateProgram": "HSBC RewardCash",
+    "applePayRate": 0.0
+  },
+  {
+    "accountName": "Premier 信用卡",
+    "rules": [
+      {
+        "category": "餐飲",
+        "rebateRate": 0.004,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.004,
+        "minSpend": 0
+      },
+      {
+        "category": "一般支出",
+        "rebateRate": 0.004,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.004,
+        "minSpend": 0
+      },
+      {
+        "category": "海外",
+        "rebateRate": 0.004,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.004,
+        "minSpend": 0
+      }
+    ],
+    "applePayAliases": [
+      "HSBC Premier",
+      "匯豐Premier",
+      "滙豐 Premier Credit"
+    ],
+    "rebateType": "rewardcash",
+    "rebateProgram": "HSBC RewardCash",
+    "applePayRate": 0.0
+  },
+  {
+    "accountName": "Cathay Mastercard",
+    "rules": [
+      {
+        "category": "餐飲",
+        "rebateRate": 0.025,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0166,
+        "minSpend": 0
+      },
+      {
+        "category": "網購",
+        "rebateRate": 0.025,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0166,
+        "minSpend": 0
+      },
+      {
+        "category": "一般支出",
+        "rebateRate": 0.0166,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0166,
+        "minSpend": 0
+      },
+      {
+        "category": "交通",
+        "rebateRate": 0.0166,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0166,
+        "minSpend": 0
+      },
+      {
+        "category": "海外",
+        "rebateRate": 0.025,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0166,
+        "minSpend": 0
+      }
+    ],
+    "applePayAliases": [
+      "Cathay Pacific Mastercard",
+      "國泰 Mastercard",
+      "Cathay",
+      "CX Mastercard"
+    ],
+    "rebateType": "miles",
+    "rebateProgram": "國泰 Asia Miles",
+    "applePayRate": 0.0
+  },
+  {
+    "accountName": "Smart Card",
+    "rules": [
+      {
+        "category": "超市",
+        "rebateRate": 0.05,
+        "monthlyCap": 3000,
+        "hasCap": true,
+        "fallbackRate": 0.0056,
+        "minSpend": 0
+      },
+      {
+        "category": "網購",
+        "rebateRate": 0.05,
+        "monthlyCap": 3000,
+        "hasCap": true,
+        "fallbackRate": 0.0056,
+        "minSpend": 0
+      },
+      {
+        "category": "一般支出",
+        "rebateRate": 0.0056,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0056,
+        "minSpend": 0
+      },
+      {
+        "category": "餐飲",
+        "rebateRate": 0.0056,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0056,
+        "minSpend": 0
+      },
+      {
+        "category": "海外",
+        "rebateRate": 0.0056,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0056,
+        "minSpend": 0
+      }
+    ],
+    "applePayAliases": [
+      "HSBC Smart",
+      "匯豐 Smart",
+      "滙豐Smart Card"
+    ],
+    "rebateType": "cash",
+    "rebateProgram": "",
+    "applePayRate": 0.0
+  },
+  {
+    "accountName": "Simply Cash Visa",
+    "rules": [
+      {
+        "category": "一般支出",
+        "rebateRate": 0.015,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.015,
+        "minSpend": 0
+      },
+      {
+        "category": "餐飲",
+        "rebateRate": 0.015,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.015,
+        "minSpend": 0
+      },
+      {
+        "category": "超市",
+        "rebateRate": 0.015,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.015,
+        "minSpend": 0
+      },
+      {
+        "category": "網購",
+        "rebateRate": 0.015,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.015,
+        "minSpend": 0
+      },
+      {
+        "category": "海外",
+        "rebateRate": 0.02,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.015,
+        "minSpend": 0
+      }
+    ],
+    "applePayAliases": [
+      "Amex Simply Cash",
+      "American Express Simply Cash",
+      "SimplyCash",
+      "Simply Cash"
+    ],
+    "rebateType": "cash",
+    "rebateProgram": "",
+    "applePayRate": 0.0
+  },
+  {
+    "accountName": "Cathay Priority Private",
+    "rules": [
+      {
+        "category": "餐飲",
+        "rebateRate": 0.025,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0166,
+        "minSpend": 0
+      },
+      {
+        "category": "網購",
+        "rebateRate": 0.025,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0166,
+        "minSpend": 0
+      },
+      {
+        "category": "一般支出",
+        "rebateRate": 0.0166,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0166,
+        "minSpend": 0
+      },
+      {
+        "category": "海外",
+        "rebateRate": 0.033,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0166,
+        "minSpend": 0
+      }
+    ],
+    "applePayAliases": [
+      "Cathay Priority",
+      "國泰Priority",
+      "CX Priority Private"
+    ],
+    "rebateType": "miles",
+    "rebateProgram": "國泰 Asia Miles",
+    "applePayRate": 0.0
+  },
+  {
+    "accountName": "Cheers Visa Infinite",
+    "rules": [
+      {
+        "category": "餐飲",
+        "rebateRate": 0.04,
+        "monthlyCap": 25000,
+        "hasCap": true,
+        "fallbackRate": 0.004,
+        "minSpend": 5000
+      },
+      {
+        "category": "網購",
+        "rebateRate": 0.015,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.004,
+        "minSpend": 0
+      },
+      {
+        "category": "一般支出",
+        "rebateRate": 0.004,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.004,
+        "minSpend": 0
+      },
+      {
+        "category": "海外",
+        "rebateRate": 0.04,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.004,
+        "minSpend": 0
+      }
+    ],
+    "applePayAliases": [
+      "BEA Cheers",
+      "東亞Cheers",
+      "Cheers Visa",
+      "BEA Visa Infinite"
+    ],
+    "rebateType": "points",
+    "rebateProgram": "中銀積分",
+    "applePayRate": 0.0
+  },
+  {
+    "accountName": "Chill Card",
+    "rules": [
+      {
+        "category": "網購",
+        "rebateRate": 0.05,
+        "monthlyCap": 3260,
+        "hasCap": true,
+        "fallbackRate": 0.004,
+        "minSpend": 0
+      },
+      {
+        "category": "餐飲",
+        "rebateRate": 0.05,
+        "monthlyCap": 3260,
+        "hasCap": true,
+        "fallbackRate": 0.004,
+        "minSpend": 0
+      },
+      {
+        "category": "一般支出",
+        "rebateRate": 0.004,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.004,
+        "minSpend": 0
+      },
+      {
+        "category": "海外",
+        "rebateRate": 0.01,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.004,
+        "minSpend": 0
+      }
+    ],
+    "applePayAliases": [
+      "HSBC Chill",
+      "匯豐Chill",
+      "滙豐 Chill Card"
+    ],
+    "rebateType": "cash",
+    "rebateProgram": "",
+    "applePayRate": 0.0
+  },
+  {
+    "accountName": "Sogo Visa Signature",
+    "rules": [
+      {
+        "category": "超市",
+        "rebateRate": 0.05,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.004,
+        "minSpend": 0
+      },
+      {
+        "category": "網購",
+        "rebateRate": 0.05,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.004,
+        "minSpend": 0
+      },
+      {
+        "category": "一般支出",
+        "rebateRate": 0.004,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.004,
+        "minSpend": 0
+      },
+      {
+        "category": "海外",
+        "rebateRate": 0.004,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.004,
+        "minSpend": 0
+      }
+    ],
+    "applePayAliases": [
+      "Sogo",
+      "崇光 Visa",
+      "Sogo Visa"
+    ],
+    "rebateType": "points",
+    "rebateProgram": "中銀積分",
+    "applePayRate": 0.05
+  },
+  {
+    "accountName": "大灣區一卡通",
+    "rules": [
+      {
+        "category": "交通",
+        "rebateRate": 0.04,
+        "monthlyCap": 2500,
+        "hasCap": true,
+        "fallbackRate": 0.004,
+        "minSpend": 0
+      },
+      {
+        "category": "餐飲",
+        "rebateRate": 0.04,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.004,
+        "minSpend": 0
+      },
+      {
+        "category": "一般支出",
+        "rebateRate": 0.004,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.004,
+        "minSpend": 0
+      },
+      {
+        "category": "海外",
+        "rebateRate": 0.04,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.004,
+        "minSpend": 0
+      }
+    ],
+    "applePayAliases": [
+      "大灣區",
+      "GBA Card",
+      "渣打大灣區",
+      "SCB 大灣區"
+    ],
+    "rebateType": "points",
+    "rebateProgram": "中銀積分",
+    "applePayRate": 0.0
+  },
+  {
+    "accountName": "i-Card",
+    "rules": [
+      {
+        "category": "網購",
+        "rebateRate": 0.04,
+        "monthlyCap": 1111,
+        "hasCap": true,
+        "fallbackRate": 0.004,
+        "minSpend": 0
+      },
+      {
+        "category": "超市",
+        "rebateRate": 0.04,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.004,
+        "minSpend": 0
+      },
+      {
+        "category": "一般支出",
+        "rebateRate": 0.004,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.004,
+        "minSpend": 0
+      },
+      {
+        "category": "海外",
+        "rebateRate": 0.004,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.004,
+        "minSpend": 0
+      }
+    ],
+    "applePayAliases": [
+      "Citibank i-Card",
+      "Citi i-Card",
+      "花旗 i-Card"
+    ],
+    "rebateType": "points",
+    "rebateProgram": "中銀積分",
+    "applePayRate": 0.0
+  },
+  {
+    "accountName": "MMPOWER Card",
+    "rules": [
+      {
+        "category": "網購",
+        "rebateRate": 0.05,
+        "monthlyCap": 10870,
+        "hasCap": true,
+        "fallbackRate": 0.004,
+        "minSpend": 5000
+      },
+      {
+        "category": "餐飲",
+        "rebateRate": 0.01,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.004,
+        "minSpend": 5000
+      },
+      {
+        "category": "電子產品",
+        "rebateRate": 0.01,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.004,
+        "minSpend": 5000
+      },
+      {
+        "category": "娛樂",
+        "rebateRate": 0.01,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.004,
+        "minSpend": 5000
+      },
+      {
+        "category": "一般支出",
+        "rebateRate": 0.004,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.004,
+        "minSpend": 0
+      },
+      {
+        "category": "海外",
+        "rebateRate": 0.06,
+        "monthlyCap": 10870,
+        "hasCap": true,
+        "fallbackRate": 0.004,
+        "minSpend": 5000
+      }
+    ],
+    "applePayAliases": [
+      "渣打 MMPOWER",
+      "SCB MMPOWER",
+      "Standard Chartered MMPOWER"
+    ],
+    "rebateType": "cash",
+    "rebateProgram": "",
+    "applePayRate": 0.0
+  },
+  {
+    "accountName": "Travel+ Visa Signature",
+    "rules": [
+      {
+        "category": "餐飲",
+        "rebateRate": 0.05,
+        "monthlyCap": 10870,
+        "hasCap": true,
+        "fallbackRate": 0.004,
+        "minSpend": 6000
+      },
+      {
+        "category": "網購",
+        "rebateRate": 0.05,
+        "monthlyCap": 10870,
+        "hasCap": true,
+        "fallbackRate": 0.004,
+        "minSpend": 6000
+      },
+      {
+        "category": "交通",
+        "rebateRate": 0.01,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.004,
+        "minSpend": 0
+      },
+      {
+        "category": "一般支出",
+        "rebateRate": 0.004,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.004,
+        "minSpend": 0
+      },
+      {
+        "category": "海外",
+        "rebateRate": 0.07,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.004,
+        "minSpend": 6000
+      }
+    ],
+    "applePayAliases": [
+      "渣打 Travel+",
+      "SCB Travel+",
+      "Standard Chartered Travel+"
+    ],
+    "rebateType": "cash",
+    "rebateProgram": "",
+    "applePayRate": 0.0
+  },
+  {
+    "accountName": "enJoy Card",
+    "rules": [
+      {
+        "category": "超市",
+        "rebateRate": 0.015,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.005,
+        "minSpend": 0
+      },
+      {
+        "category": "餐飲",
+        "rebateRate": 0.02,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.005,
+        "minSpend": 0
+      },
+      {
+        "category": "便利店",
+        "rebateRate": 0.015,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.005,
+        "minSpend": 0
+      },
+      {
+        "category": "一般支出",
+        "rebateRate": 0.005,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.005,
+        "minSpend": 0
+      },
+      {
+        "category": "海外",
+        "rebateRate": 0.01,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.005,
+        "minSpend": 0
+      }
+    ],
+    "applePayAliases": [
+      "渣打 enJoy",
+      "SCB enJoy",
+      "Standard Chartered enJoy"
+    ],
+    "rebateType": "points",
+    "rebateProgram": "恆生 cc.points",
+    "applePayRate": 0.0
+  },
+  {
+    "accountName": "World Mastercard",
+    "rules": [
+      {
+        "category": "餐飲",
+        "rebateRate": 0.05,
+        "monthlyCap": 10000,
+        "hasCap": true,
+        "fallbackRate": 0.004,
+        "minSpend": 5000
+      },
+      {
+        "category": "電器",
+        "rebateRate": 0.05,
+        "monthlyCap": 10000,
+        "hasCap": true,
+        "fallbackRate": 0.004,
+        "minSpend": 5000
+      },
+      {
+        "category": "醫療",
+        "rebateRate": 0.05,
+        "monthlyCap": 10000,
+        "hasCap": true,
+        "fallbackRate": 0.004,
+        "minSpend": 5000
+      },
+      {
+        "category": "一般支出",
+        "rebateRate": 0.004,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.004,
+        "minSpend": 0
+      },
+      {
+        "category": "海外",
+        "rebateRate": 0.05,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.004,
+        "minSpend": 5000
+      }
+    ],
+    "applePayAliases": [
+      "Citibank World",
+      "Citi World Mastercard",
+      "花旗 World"
+    ],
+    "rebateType": "points",
+    "rebateProgram": "東亞積分",
+    "applePayRate": 0.0
+  },
+  {
+    "accountName": "Goal Card",
+    "rules": [
+      {
+        "category": "網購",
+        "rebateRate": 0.044,
+        "monthlyCap": 5000,
+        "hasCap": true,
+        "fallbackRate": 0.004,
+        "minSpend": 2000
+      },
+      {
+        "category": "交通",
+        "rebateRate": 0.064,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.004,
+        "minSpend": 2000
+      },
+      {
+        "category": "娛樂",
+        "rebateRate": 0.054,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.004,
+        "minSpend": 2000
+      },
+      {
+        "category": "一般支出",
+        "rebateRate": 0.004,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.004,
+        "minSpend": 0
+      },
+      {
+        "category": "海外",
+        "rebateRate": 0.01,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.004,
+        "minSpend": 0
+      }
+    ],
+    "applePayAliases": [
+      "渣打 Goal",
+      "SCB Goal",
+      "Standard Chartered Goal"
+    ],
+    "rebateType": "points",
+    "rebateProgram": "恆生 cc.points",
+    "applePayRate": 0.0
+  },
+  {
+    "accountName": "i-Titanium Card",
+    "rules": [
+      {
+        "category": "網購",
+        "rebateRate": 0.04,
+        "monthlyCap": 8333,
+        "hasCap": true,
+        "fallbackRate": 0.004,
+        "minSpend": 2000
+      },
+      {
+        "category": "餐飲",
+        "rebateRate": 0.04,
+        "monthlyCap": 8333,
+        "hasCap": true,
+        "fallbackRate": 0.004,
+        "minSpend": 2000
+      },
+      {
+        "category": "交通",
+        "rebateRate": 0.04,
+        "monthlyCap": 8333,
+        "hasCap": true,
+        "fallbackRate": 0.004,
+        "minSpend": 2000
+      },
+      {
+        "category": "一般支出",
+        "rebateRate": 0.004,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.004,
+        "minSpend": 0
+      },
+      {
+        "category": "海外",
+        "rebateRate": 0.004,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.004,
+        "minSpend": 0
+      }
+    ],
+    "applePayAliases": [
+      "Citi i-Titanium",
+      "花旗 i-Titanium",
+      "Citibank Titanium"
+    ],
+    "rebateType": "points",
+    "rebateProgram": "東亞積分",
+    "applePayRate": 0.04
+  },
+  {
+    "accountName": "銀聯雙幣鑽石卡",
+    "rules": [
+      {
+        "category": "餐飲",
+        "rebateRate": 0.012,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.004,
+        "minSpend": 0
+      },
+      {
+        "category": "一般支出",
+        "rebateRate": 0.004,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.004,
+        "minSpend": 0
+      },
+      {
+        "category": "海外",
+        "rebateRate": 0.04,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.004,
+        "minSpend": 0
+      }
+    ],
+    "applePayAliases": [
+      "中銀銀聯",
+      "BOC銀聯鑽石",
+      "Bank of China 銀聯",
+      "BOC Diamond"
+    ],
+    "rebateType": "points",
+    "rebateProgram": "東亞積分",
+    "applePayRate": 0.0
+  },
+  {
+    "accountName": "Cash Back Card",
+    "rules": [
+      {
+        "category": "餐飲",
+        "rebateRate": 0.02,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.01,
+        "minSpend": 0
+      },
+      {
+        "category": "酒店",
+        "rebateRate": 0.02,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.01,
+        "minSpend": 0
+      },
+      {
+        "category": "一般支出",
+        "rebateRate": 0.01,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.01,
+        "minSpend": 0
+      },
+      {
+        "category": "海外",
+        "rebateRate": 0.02,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.01,
+        "minSpend": 0
+      }
+    ],
+    "applePayAliases": [
+      "中銀 Cash Back",
+      "BOC Cash Back",
+      "Bank of China Cash Back"
+    ],
+    "rebateType": "cash",
+    "rebateProgram": "",
+    "applePayRate": 0.0
+  },
+  {
+    "accountName": "Rewards Mastercard",
+    "rules": [
+      {
+        "category": "網購",
+        "rebateRate": 0.03,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.004,
+        "minSpend": 0
+      },
+      {
+        "category": "百貨公司",
+        "rebateRate": 0.03,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.004,
+        "minSpend": 0
+      },
+      {
+        "category": "娛樂",
+        "rebateRate": 0.03,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.004,
+        "minSpend": 0
+      },
+      {
+        "category": "一般支出",
+        "rebateRate": 0.004,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.004,
+        "minSpend": 0
+      },
+      {
+        "category": "海外",
+        "rebateRate": 0.03,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.004,
+        "minSpend": 0
+      }
+    ],
+    "applePayAliases": [
+      "Citi Rewards",
+      "花旗 Rewards",
+      "Citibank Rewards Mastercard"
+    ],
+    "rebateType": "points",
+    "rebateProgram": "Citi ThankYou Points",
+    "applePayRate": 0.0
+  },
+  {
+    "accountName": "PremierMiles Card",
+    "rules": [
+      {
+        "category": "餐飲",
+        "rebateRate": 0.015,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0125,
+        "minSpend": 0
+      },
+      {
+        "category": "一般支出",
+        "rebateRate": 0.0125,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0125,
+        "minSpend": 0
+      },
+      {
+        "category": "海外",
+        "rebateRate": 0.025,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0125,
+        "minSpend": 0
+      }
+    ],
+    "applePayAliases": [
+      "Citi PremierMiles",
+      "花旗 PremierMiles",
+      "Citibank PremierMiles"
+    ],
+    "rebateType": "miles",
+    "rebateProgram": "國泰 Asia Miles",
+    "applePayRate": 0.0
+  },
+  {
+    "accountName": "Prestige Card",
+    "rules": [
+      {
+        "category": "一般支出",
+        "rebateRate": 0.0166,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0166,
+        "minSpend": 0
+      },
+      {
+        "category": "餐飲",
+        "rebateRate": 0.0166,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0166,
+        "minSpend": 0
+      },
+      {
+        "category": "海外",
+        "rebateRate": 0.03,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0166,
+        "minSpend": 0
+      }
+    ],
+    "applePayAliases": [
+      "Citi Prestige",
+      "花旗 Prestige",
+      "Citibank Prestige"
+    ],
+    "rebateType": "points",
+    "rebateProgram": "Citi ThankYou Points",
+    "applePayRate": 0.0
+  },
+  {
+    "accountName": "The Club Credit Card",
+    "rules": [
+      {
+        "category": "電訊",
+        "rebateRate": 0.04,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.01,
+        "minSpend": 0
+      },
+      {
+        "category": "餐飲",
+        "rebateRate": 0.04,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.01,
+        "minSpend": 0
+      },
+      {
+        "category": "一般支出",
+        "rebateRate": 0.01,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.01,
+        "minSpend": 0
+      },
+      {
+        "category": "海外",
+        "rebateRate": 0.01,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.01,
+        "minSpend": 0
+      }
+    ],
+    "applePayAliases": [
+      "The Club",
+      "Club Card",
+      "HKT The Club"
+    ],
+    "rebateType": "points",
+    "rebateProgram": "The Club積分",
+    "applePayRate": 0.0
+  },
+  {
+    "accountName": "Plus 信用卡",
+    "rules": [
+      {
+        "category": "網購",
+        "rebateRate": 0.03,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.01,
+        "minSpend": 0
+      },
+      {
+        "category": "一般支出",
+        "rebateRate": 0.01,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.01,
+        "minSpend": 0
+      },
+      {
+        "category": "海外",
+        "rebateRate": 0.01,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.01,
+        "minSpend": 0
+      }
+    ],
+    "applePayAliases": [
+      "中銀Plus",
+      "BOC Plus",
+      "Bank of China Plus"
+    ],
+    "rebateType": "points",
+    "rebateProgram": "中銀積分",
+    "applePayRate": 0.0
+  },
+  {
+    "accountName": "Mox Credit",
+    "rules": [
+      {
+        "category": "超市",
+        "rebateRate": 0.03,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.01,
+        "minSpend": 0
+      },
+      {
+        "category": "一般支出",
+        "rebateRate": 0.01,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.01,
+        "minSpend": 0
+      },
+      {
+        "category": "網購",
+        "rebateRate": 0.01,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.01,
+        "minSpend": 0
+      },
+      {
+        "category": "海外",
+        "rebateRate": 0.02,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.01,
+        "minSpend": 0
+      }
+    ],
+    "applePayAliases": [
+      "Mox",
+      "Mox Bank",
+      "Mox Credit Card"
+    ],
+    "rebateType": "cash",
+    "rebateProgram": "",
+    "applePayRate": 0.0
+  },
+  {
+    "accountName": "EarnMORE 銀聯卡",
+    "rules": [
+      {
+        "category": "一般支出",
+        "rebateRate": 0.02,
+        "monthlyCap": 16666,
+        "hasCap": true,
+        "fallbackRate": 0.01,
+        "minSpend": 0
+      },
+      {
+        "category": "餐飲",
+        "rebateRate": 0.02,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.01,
+        "minSpend": 0
+      },
+      {
+        "category": "超市",
+        "rebateRate": 0.02,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.01,
+        "minSpend": 0
+      },
+      {
+        "category": "網購",
+        "rebateRate": 0.02,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.01,
+        "minSpend": 0
+      },
+      {
+        "category": "海外",
+        "rebateRate": 0.02,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.01,
+        "minSpend": 0
+      }
+    ],
+    "applePayAliases": [
+      "中銀EarnMORE",
+      "BOC EarnMORE",
+      "Bank of China EarnMORE"
+    ],
+    "rebateType": "cash",
+    "rebateProgram": "",
+    "applePayRate": 0.0
+  },
+  {
+    "accountName": "Explorer",
+    "rules": [
+      {
+        "category": "一般支出",
+        "rebateRate": 0.0125,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0125,
+        "minSpend": 0
+      },
+      {
+        "category": "網購",
+        "rebateRate": 0.0125,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0125,
+        "minSpend": 0
+      },
+      {
+        "category": "餐飲",
+        "rebateRate": 0.0125,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0125,
+        "minSpend": 0
+      },
+      {
+        "category": "海外",
+        "rebateRate": 0.033,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0125,
+        "minSpend": 0
+      }
+    ],
+    "applePayAliases": [
+      "Amex Explorer",
+      "American Express Explorer",
+      "美國運通 Explorer"
+    ],
+    "rebateType": "points",
+    "rebateProgram": "美國運通 MR Points",
+    "applePayRate": 0.0
+  },
+  {
+    "accountName": "The Platinum Card",
+    "rules": [
+      {
+        "category": "餐飲",
+        "rebateRate": 0.07,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.006,
+        "minSpend": 0
+      },
+      {
+        "category": "一般支出",
+        "rebateRate": 0.006,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.006,
+        "minSpend": 0
+      },
+      {
+        "category": "超市",
+        "rebateRate": 0.006,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.006,
+        "minSpend": 0
+      },
+      {
+        "category": "海外",
+        "rebateRate": 0.03,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.006,
+        "minSpend": 0
+      }
+    ],
+    "applePayAliases": [
+      "Amex Platinum",
+      "American Express Platinum",
+      "美國運通白金",
+      "AmEx Platinum"
+    ],
+    "rebateType": "points",
+    "rebateProgram": "美國運通 MR Points",
+    "applePayRate": 0.0
+  },
+  {
+    "accountName": "Blue Cash",
+    "rules": [
+      {
+        "category": "一般支出",
+        "rebateRate": 0.012,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.012,
+        "minSpend": 0
+      },
+      {
+        "category": "超市",
+        "rebateRate": 0.012,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.012,
+        "minSpend": 0
+      },
+      {
+        "category": "網購",
+        "rebateRate": 0.012,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.012,
+        "minSpend": 0
+      },
+      {
+        "category": "海外",
+        "rebateRate": 0.012,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.012,
+        "minSpend": 0
+      }
+    ],
+    "applePayAliases": [
+      "Amex Blue Cash",
+      "American Express Blue Cash",
+      "美國運通 Blue Cash"
+    ],
+    "rebateType": "cash",
+    "rebateProgram": "",
+    "applePayRate": 0.0
+  },
+  {
+    "accountName": "British Airways 信用卡",
+    "rules": [
+      {
+        "category": "一般支出",
+        "rebateRate": 0.0166,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0166,
+        "minSpend": 0
+      },
+      {
+        "category": "餐飲",
+        "rebateRate": 0.0166,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0166,
+        "minSpend": 0
+      },
+      {
+        "category": "網購",
+        "rebateRate": 0.0166,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0166,
+        "minSpend": 0
+      },
+      {
+        "category": "海外",
+        "rebateRate": 0.025,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0166,
+        "minSpend": 0
+      }
+    ],
+    "applePayAliases": [
+      "British Airways Amex",
+      "BA Amex",
+      "American Express British Airways"
+    ],
+    "rebateType": "miles",
+    "rebateProgram": "英航 Avios",
+    "applePayRate": 0.0
+  },
+  {
+    "accountName": "ONE+ 信用卡",
+    "rules": [
+      {
+        "category": "一般支出",
+        "rebateRate": 0.01,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.01,
+        "minSpend": 0
+      },
+      {
+        "category": "餐飲",
+        "rebateRate": 0.01,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.01,
+        "minSpend": 0
+      },
+      {
+        "category": "超市",
+        "rebateRate": 0.01,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.01,
+        "minSpend": 0
+      },
+      {
+        "category": "海外",
+        "rebateRate": 0.01,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.01,
+        "minSpend": 0
+      }
+    ],
+    "applePayAliases": [
+      "中銀ONE+",
+      "BOC ONE+",
+      "Bank of China ONE+"
+    ],
+    "rebateType": "points",
+    "rebateProgram": "大新 cc.points",
+    "applePayRate": 0.0
+  },
+  {
+    "accountName": "Card WAKUWAKU",
+    "rules": [
+      {
+        "category": "網購",
+        "rebateRate": 0.06,
+        "monthlyCap": 3571,
+        "hasCap": true,
+        "fallbackRate": 0.004,
+        "minSpend": 0
+      },
+      {
+        "category": "餐飲",
+        "rebateRate": 0.01,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.004,
+        "minSpend": 0
+      },
+      {
+        "category": "超市",
+        "rebateRate": 0.01,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.004,
+        "minSpend": 0
+      },
+      {
+        "category": "一般支出",
+        "rebateRate": 0.005,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.004,
+        "minSpend": 0
+      },
+      {
+        "category": "海外",
+        "rebateRate": 0.01,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.004,
+        "minSpend": 0
+      }
+    ],
+    "applePayAliases": [
+      "WAKUWAKU",
+      "わくわく",
+      "ANA WAKUWAKU"
+    ],
+    "rebateType": "points",
+    "rebateProgram": "AEON WAKU COIN",
+    "applePayRate": 0.02
+  },
+  {
+    "accountName": "銀聯卡",
+    "rules": [
+      {
+        "category": "一般支出",
+        "rebateRate": 0.005,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.005,
+        "minSpend": 0
+      },
+      {
+        "category": "餐飲",
+        "rebateRate": 0.01,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.005,
+        "minSpend": 0
+      },
+      {
+        "category": "海外",
+        "rebateRate": 0.04,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.005,
+        "minSpend": 0
+      }
+    ],
+    "applePayAliases": [
+      "UnionPay",
+      "銀聯",
+      "中銀銀聯卡"
+    ],
+    "rebateType": "points",
+    "rebateProgram": "中銀積分",
+    "applePayRate": 0.0
+  },
+  {
+    "accountName": "JCB 信用卡",
+    "rules": [
+      {
+        "category": "日本簽賬",
+        "rebateRate": 0.1,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.005,
+        "minSpend": 0
+      },
+      {
+        "category": "超市",
+        "rebateRate": 0.01,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.005,
+        "minSpend": 0
+      },
+      {
+        "category": "一般支出",
+        "rebateRate": 0.005,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.005,
+        "minSpend": 0
+      },
+      {
+        "category": "海外",
+        "rebateRate": 0.01,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.005,
+        "minSpend": 0
+      }
+    ],
+    "applePayAliases": [
+      "JCB",
+      "JCB Card",
+      "大新JCB",
+      "Dah Sing JCB"
+    ],
+    "rebateType": "points",
+    "rebateProgram": "AEON積分",
+    "applePayRate": 0.0
+  },
+  {
+    "accountName": "WeWa Visa 卡",
+    "rules": [
+      {
+        "category": "娛樂",
+        "rebateRate": 0.04,
+        "monthlyCap": 5556,
+        "hasCap": true,
+        "fallbackRate": 0.004,
+        "minSpend": 1500
+      },
+      {
+        "category": "旅遊",
+        "rebateRate": 0.04,
+        "monthlyCap": 5556,
+        "hasCap": true,
+        "fallbackRate": 0.004,
+        "minSpend": 1500
+      },
+      {
+        "category": "戲院",
+        "rebateRate": 0.04,
+        "monthlyCap": 5556,
+        "hasCap": true,
+        "fallbackRate": 0.004,
+        "minSpend": 1500
+      },
+      {
+        "category": "一般支出",
+        "rebateRate": 0.004,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.004,
+        "minSpend": 0
+      },
+      {
+        "category": "海外",
+        "rebateRate": 0.04,
+        "monthlyCap": 5556,
+        "hasCap": true,
+        "fallbackRate": 0.004,
+        "minSpend": 1500
+      }
+    ],
+    "applePayAliases": [
+      "WeWa",
+      "WeWa Visa",
+      "WeLend WeWa"
+    ],
+    "rebateType": "cash",
+    "rebateProgram": "",
+    "applePayRate": 0.0
+  },
+  {
+    "accountName": "DBS World Mastercard",
+    "rules": [
+      {
+        "category": "網購",
+        "rebateRate": 0.08,
+        "monthlyCap": 3000,
+        "hasCap": true,
+        "fallbackRate": 0.004,
+        "minSpend": 0
+      },
+      {
+        "category": "交通",
+        "rebateRate": 0.08,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.004,
+        "minSpend": 0
+      },
+      {
+        "category": "醫療",
+        "rebateRate": 0.06,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.004,
+        "minSpend": 0
+      },
+      {
+        "category": "健身",
+        "rebateRate": 0.06,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.004,
+        "minSpend": 0
+      },
+      {
+        "category": "一般支出",
+        "rebateRate": 0.004,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.004,
+        "minSpend": 0
+      },
+      {
+        "category": "海外",
+        "rebateRate": 0.03,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.004,
+        "minSpend": 0
+      }
+    ],
+    "applePayAliases": [
+      "DBS World",
+      "星展 World",
+      "DBS Mastercard"
+    ],
+    "rebateType": "points",
+    "rebateProgram": "DBS Points",
+    "applePayRate": 0.02
+  },
+  {
+    "accountName": "Eminent Visa Signature",
+    "rules": [
+      {
+        "category": "餐飲",
+        "rebateRate": 0.05,
+        "monthlyCap": 8000,
+        "hasCap": true,
+        "fallbackRate": 0.01,
+        "minSpend": 0
+      },
+      {
+        "category": "醫療",
+        "rebateRate": 0.05,
+        "monthlyCap": 8000,
+        "hasCap": true,
+        "fallbackRate": 0.01,
+        "minSpend": 0
+      },
+      {
+        "category": "運動用品",
+        "rebateRate": 0.05,
+        "monthlyCap": 8000,
+        "hasCap": true,
+        "fallbackRate": 0.01,
+        "minSpend": 0
+      },
+      {
+        "category": "一般支出",
+        "rebateRate": 0.01,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.01,
+        "minSpend": 0
+      },
+      {
+        "category": "海外",
+        "rebateRate": 0.01,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.01,
+        "minSpend": 0
+      }
+    ],
+    "applePayAliases": [
+      "渣打 Eminent",
+      "SCB Eminent",
+      "Standard Chartered Eminent"
+    ],
+    "rebateType": "points",
+    "rebateProgram": "DBS Points",
+    "applePayRate": 0.0
+  },
+  {
+    "accountName": "Black World Mastercard",
+    "rules": [
+      {
+        "category": "一般支出",
+        "rebateRate": 0.0166,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0166,
+        "minSpend": 0
+      },
+      {
+        "category": "餐飲",
+        "rebateRate": 0.0166,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0166,
+        "minSpend": 0
+      },
+      {
+        "category": "網購",
+        "rebateRate": 0.0166,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0166,
+        "minSpend": 0
+      },
+      {
+        "category": "海外",
+        "rebateRate": 0.025,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0166,
+        "minSpend": 0
+      }
+    ],
+    "applePayAliases": [
+      "Citi Black",
+      "花旗 Black",
+      "Citibank Black World"
+    ],
+    "rebateType": "points",
+    "rebateProgram": "DBS Points",
+    "applePayRate": 0.0
+  },
+  {
+    "accountName": "Live Fresh Card",
+    "rules": [
+      {
+        "category": "網購",
+        "rebateRate": 0.05,
+        "monthlyCap": 3000,
+        "hasCap": true,
+        "fallbackRate": 0.004,
+        "minSpend": 0
+      },
+      {
+        "category": "一般支出",
+        "rebateRate": 0.004,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.004,
+        "minSpend": 0
+      },
+      {
+        "category": "海外",
+        "rebateRate": 0.01,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.004,
+        "minSpend": 0
+      }
+    ],
+    "applePayAliases": [
+      "渣打 Live Fresh",
+      "SCB Live Fresh",
+      "Standard Chartered Live Fresh"
+    ],
+    "rebateType": "cash",
+    "rebateProgram": "",
+    "applePayRate": 0.0
+  },
+  {
+    "accountName": "COMPASS VISA",
+    "rules": [
+      {
+        "category": "超市",
+        "rebateRate": 0.08,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.004,
+        "minSpend": 0
+      },
+      {
+        "category": "網購",
+        "rebateRate": 0.03,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.004,
+        "minSpend": 0
+      },
+      {
+        "category": "咖啡店",
+        "rebateRate": 0.03,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.004,
+        "minSpend": 0
+      },
+      {
+        "category": "一般支出",
+        "rebateRate": 0.004,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.004,
+        "minSpend": 0
+      },
+      {
+        "category": "海外",
+        "rebateRate": 0.004,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.004,
+        "minSpend": 0
+      }
+    ],
+    "applePayAliases": [
+      "中銀COMPASS",
+      "BOC Compass",
+      "Bank of China COMPASS"
+    ],
+    "rebateType": "cash",
+    "rebateProgram": "",
+    "applePayRate": 0.03
+  },
+  {
+    "accountName": "Sapphire Preferred",
+    "rules": [
+      {
+        "category": "旅遊",
+        "rebateRate": 0.0128,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0026,
+        "minSpend": 0
+      },
+      {
+        "category": "餐飲",
+        "rebateRate": 0.0077,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0026,
+        "minSpend": 0
+      },
+      {
+        "category": "網購",
+        "rebateRate": 0.0077,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0026,
+        "minSpend": 0
+      },
+      {
+        "category": "海外",
+        "rebateRate": 0.0077,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0026,
+        "minSpend": 0
+      },
+      {
+        "category": "一般支出",
+        "rebateRate": 0.0026,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0026,
+        "minSpend": 0
+      }
+    ],
+    "applePayAliases": [
+      "Chase Sapphire Preferred",
+      "Sapphire Preferred"
+    ],
+    "rebateType": "points",
+    "rebateProgram": "Chase Ultimate Rewards",
+    "applePayRate": 0.0
+  },
+  {
+    "accountName": "Sapphire Reserve",
+    "rules": [
+      {
+        "category": "旅遊",
+        "rebateRate": 0.0256,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0026,
+        "minSpend": 0
+      },
+      {
+        "category": "餐飲",
+        "rebateRate": 0.0077,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0026,
+        "minSpend": 0
+      },
+      {
+        "category": "網購",
+        "rebateRate": 0.0077,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0026,
+        "minSpend": 0
+      },
+      {
+        "category": "海外",
+        "rebateRate": 0.0077,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0026,
+        "minSpend": 0
+      },
+      {
+        "category": "一般支出",
+        "rebateRate": 0.0026,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0026,
+        "minSpend": 0
+      }
+    ],
+    "applePayAliases": [
+      "Chase Sapphire Reserve",
+      "Sapphire Reserve"
+    ],
+    "rebateType": "points",
+    "rebateProgram": "Chase Ultimate Rewards",
+    "applePayRate": 0.0
+  },
+  {
+    "accountName": "Freedom Unlimited",
+    "rules": [
+      {
+        "category": "餐飲",
+        "rebateRate": 0.03,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.015,
+        "minSpend": 0
+      },
+      {
+        "category": "網購",
+        "rebateRate": 0.03,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.015,
+        "minSpend": 0
+      },
+      {
+        "category": "一般支出",
+        "rebateRate": 0.015,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.015,
+        "minSpend": 0
+      },
+      {
+        "category": "海外",
+        "rebateRate": 0.03,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.015,
+        "minSpend": 0
+      }
+    ],
+    "applePayAliases": [
+      "Chase Freedom Unlimited",
+      "Freedom Unlimited"
+    ],
+    "rebateType": "cash",
+    "rebateProgram": "",
+    "applePayRate": 0.0
+  },
+  {
+    "accountName": "Freedom Flex",
+    "rules": [
+      {
+        "category": "餐飲",
+        "rebateRate": 0.03,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.01,
+        "minSpend": 0
+      },
+      {
+        "category": "網購",
+        "rebateRate": 0.05,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.01,
+        "minSpend": 0
+      },
+      {
+        "category": "超市",
+        "rebateRate": 0.05,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.01,
+        "minSpend": 0
+      },
+      {
+        "category": "一般支出",
+        "rebateRate": 0.01,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.01,
+        "minSpend": 0
+      },
+      {
+        "category": "海外",
+        "rebateRate": 0.03,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.01,
+        "minSpend": 0
+      }
+    ],
+    "applePayAliases": [
+      "Chase Freedom Flex",
+      "Freedom Flex"
+    ],
+    "rebateType": "cash",
+    "rebateProgram": "",
+    "applePayRate": 0.0
+  },
+  {
+    "accountName": "Hilton Aspire Card",
+    "rules": [
+      {
+        "category": "餐飲",
+        "rebateRate": 0.0314,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0135,
+        "minSpend": 0
+      },
+      {
+        "category": "旅遊",
+        "rebateRate": 0.0314,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0135,
+        "minSpend": 0
+      },
+      {
+        "category": "交通",
+        "rebateRate": 0.0314,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0135,
+        "minSpend": 0
+      },
+      {
+        "category": "海外",
+        "rebateRate": 0.0135,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0135,
+        "minSpend": 0
+      },
+      {
+        "category": "一般支出",
+        "rebateRate": 0.0135,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0135,
+        "minSpend": 0
+      },
+      {
+        "category": "網購",
+        "rebateRate": 0.0135,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0135,
+        "minSpend": 0
+      }
+    ],
+    "applePayAliases": [
+      "Hilton Aspire",
+      "Amex Hilton Aspire"
+    ],
+    "rebateType": "points",
+    "rebateProgram": "希爾頓 Hilton Honors",
+    "applePayRate": 0.0
+  },
+  {
+    "accountName": "Hilton Surpass Card",
+    "rules": [
+      {
+        "category": "餐飲",
+        "rebateRate": 0.0269,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0135,
+        "minSpend": 0
+      },
+      {
+        "category": "超市",
+        "rebateRate": 0.0269,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0135,
+        "minSpend": 0
+      },
+      {
+        "category": "交通",
+        "rebateRate": 0.0269,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0135,
+        "minSpend": 0
+      },
+      {
+        "category": "海外",
+        "rebateRate": 0.0135,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0135,
+        "minSpend": 0
+      },
+      {
+        "category": "一般支出",
+        "rebateRate": 0.0135,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0135,
+        "minSpend": 0
+      },
+      {
+        "category": "網購",
+        "rebateRate": 0.0135,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0135,
+        "minSpend": 0
+      }
+    ],
+    "applePayAliases": [
+      "Hilton Surpass",
+      "Amex Hilton Surpass"
+    ],
+    "rebateType": "points",
+    "rebateProgram": "希爾頓 Hilton Honors",
+    "applePayRate": 0.0
+  },
+  {
+    "accountName": "Gold Card",
+    "rules": [
+      {
+        "category": "餐飲",
+        "rebateRate": 0.0769,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0192,
+        "minSpend": 0
+      },
+      {
+        "category": "超市",
+        "rebateRate": 0.0769,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0192,
+        "minSpend": 0
+      },
+      {
+        "category": "旅遊",
+        "rebateRate": 0.0577,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0192,
+        "minSpend": 0
+      },
+      {
+        "category": "海外",
+        "rebateRate": 0.0577,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0192,
+        "minSpend": 0
+      },
+      {
+        "category": "一般支出",
+        "rebateRate": 0.0192,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0192,
+        "minSpend": 0
+      }
+    ],
+    "applePayAliases": [
+      "Amex Gold",
+      "American Express Gold"
+    ],
+    "rebateType": "points",
+    "rebateProgram": "美國運通 MR Points",
+    "applePayRate": 0.0
+  },
+  {
+    "accountName": "Platinum Card",
+    "rules": [
+      {
+        "category": "旅遊",
+        "rebateRate": 0.0962,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0192,
+        "minSpend": 0
+      },
+      {
+        "category": "海外",
+        "rebateRate": 0.0385,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0192,
+        "minSpend": 0
+      },
+      {
+        "category": "一般支出",
+        "rebateRate": 0.0192,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0192,
+        "minSpend": 0
+      }
+    ],
+    "applePayAliases": [
+      "Amex Platinum",
+      "American Express Platinum"
+    ],
+    "rebateType": "points",
+    "rebateProgram": "美國運通 MR Points",
+    "applePayRate": 0.0
+  },
+  {
+    "accountName": "Blue Cash Everyday",
+    "rules": [
+      {
+        "category": "超市",
+        "rebateRate": 0.03,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.01,
+        "minSpend": 0
+      },
+      {
+        "category": "網購",
+        "rebateRate": 0.03,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.01,
+        "minSpend": 0
+      },
+      {
+        "category": "交通",
+        "rebateRate": 0.03,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.01,
+        "minSpend": 0
+      },
+      {
+        "category": "一般支出",
+        "rebateRate": 0.01,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.01,
+        "minSpend": 0
+      }
+    ],
+    "applePayAliases": [
+      "Blue Cash Everyday",
+      "Amex Blue Cash Everyday"
+    ],
+    "rebateType": "cash",
+    "rebateProgram": "",
+    "applePayRate": 0.0
+  },
+  {
+    "accountName": "Venture X",
+    "rules": [
+      {
+        "category": "旅遊",
+        "rebateRate": 0.0192,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0038,
+        "minSpend": 0
+      },
+      {
+        "category": "海外",
+        "rebateRate": 0.0096,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0038,
+        "minSpend": 0
+      },
+      {
+        "category": "一般支出",
+        "rebateRate": 0.0038,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0038,
+        "minSpend": 0
+      }
+    ],
+    "applePayAliases": [
+      "Capital One Venture X",
+      "Venture X"
+    ],
+    "rebateType": "miles",
+    "rebateProgram": "聯合航空 United Miles",
+    "applePayRate": 0.0
+  },
+  {
+    "accountName": "Venture",
+    "rules": [
+      {
+        "category": "旅遊",
+        "rebateRate": 0.0096,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0038,
+        "minSpend": 0
+      },
+      {
+        "category": "海外",
+        "rebateRate": 0.0038,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0038,
+        "minSpend": 0
+      },
+      {
+        "category": "一般支出",
+        "rebateRate": 0.0038,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0038,
+        "minSpend": 0
+      }
+    ],
+    "applePayAliases": [
+      "Capital One Venture",
+      "Venture Card"
+    ],
+    "rebateType": "miles",
+    "rebateProgram": "聯合航空 United Miles",
+    "applePayRate": 0.0
+  },
+  {
+    "accountName": "Quicksilver",
+    "rules": [
+      {
+        "category": "一般支出",
+        "rebateRate": 0.015,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.015,
+        "minSpend": 0
+      },
+      {
+        "category": "海外",
+        "rebateRate": 0.015,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.015,
+        "minSpend": 0
+      }
+    ],
+    "applePayAliases": [
+      "Capital One Quicksilver",
+      "Quicksilver"
+    ],
+    "rebateType": "cash",
+    "rebateProgram": "",
+    "applePayRate": 0.0
+  },
+  {
+    "accountName": "Double Cash",
+    "rules": [
+      {
+        "category": "一般支出",
+        "rebateRate": 0.02,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.02,
+        "minSpend": 0
+      },
+      {
+        "category": "海外",
+        "rebateRate": 0.02,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.02,
+        "minSpend": 0
+      }
+    ],
+    "applePayAliases": [
+      "Citi Double Cash",
+      "Double Cash"
+    ],
+    "rebateType": "cash",
+    "rebateProgram": "",
+    "applePayRate": 0.0
+  },
+  {
+    "accountName": "Premier Card",
+    "rules": [
+      {
+        "category": "餐飲",
+        "rebateRate": 0.0038,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0013,
+        "minSpend": 0
+      },
+      {
+        "category": "超市",
+        "rebateRate": 0.0038,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0013,
+        "minSpend": 0
+      },
+      {
+        "category": "交通",
+        "rebateRate": 0.0038,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0013,
+        "minSpend": 0
+      },
+      {
+        "category": "旅遊",
+        "rebateRate": 0.0038,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0013,
+        "minSpend": 0
+      },
+      {
+        "category": "海外",
+        "rebateRate": 0.0038,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0013,
+        "minSpend": 0
+      },
+      {
+        "category": "一般支出",
+        "rebateRate": 0.0013,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0013,
+        "minSpend": 0
+      }
+    ],
+    "applePayAliases": [
+      "Citi Premier",
+      "Premier Card"
+    ],
+    "rebateType": "points",
+    "rebateProgram": "Citi ThankYou Points",
+    "applePayRate": 0.0
+  },
+  {
+    "accountName": "Apple Card",
+    "rules": [
+      {
+        "category": "網購",
+        "rebateRate": 0.03,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.01,
+        "minSpend": 0
+      },
+      {
+        "category": "一般支出",
+        "rebateRate": 0.01,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.01,
+        "minSpend": 0
+      },
+      {
+        "category": "海外",
+        "rebateRate": 0.01,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.01,
+        "minSpend": 0
+      }
+    ],
+    "applePayAliases": [
+      "Apple Card",
+      "Goldman Sachs Apple"
+    ],
+    "rebateType": "cash",
+    "rebateProgram": "",
+    "applePayRate": 0.02
+  },
+  {
+    "accountName": "Discover it Cash Back",
+    "rules": [
+      {
+        "category": "網購",
+        "rebateRate": 0.05,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.01,
+        "minSpend": 0
+      },
+      {
+        "category": "餐飲",
+        "rebateRate": 0.05,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.01,
+        "minSpend": 0
+      },
+      {
+        "category": "一般支出",
+        "rebateRate": 0.01,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.01,
+        "minSpend": 0
+      },
+      {
+        "category": "海外",
+        "rebateRate": 0.01,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.01,
+        "minSpend": 0
+      }
+    ],
+    "applePayAliases": [
+      "Discover it",
+      "Discover Cash Back"
+    ],
+    "rebateType": "cash",
+    "rebateProgram": "",
+    "applePayRate": 0.0
+  },
+  {
+    "accountName": "Marriott Bonvoy Brilliant",
+    "rules": [
+      {
+        "category": "旅遊",
+        "rebateRate": 0.0369,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0123,
+        "minSpend": 0
+      },
+      {
+        "category": "餐飲",
+        "rebateRate": 0.0185,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0123,
+        "minSpend": 0
+      },
+      {
+        "category": "海外",
+        "rebateRate": 0.0185,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0123,
+        "minSpend": 0
+      },
+      {
+        "category": "一般支出",
+        "rebateRate": 0.0123,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0123,
+        "minSpend": 0
+      },
+      {
+        "category": "網購",
+        "rebateRate": 0.0123,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0123,
+        "minSpend": 0
+      }
+    ],
+    "applePayAliases": [
+      "Marriott Bonvoy Brilliant",
+      "Amex Marriott Brilliant"
+    ],
+    "rebateType": "points",
+    "rebateProgram": "萬豪 Marriott Bonvoy",
+    "applePayRate": 0.0
+  },
+  {
+    "accountName": "Marriott Bonvoy Bevy",
+    "rules": [
+      {
+        "category": "旅遊",
+        "rebateRate": 0.0369,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0123,
+        "minSpend": 0
+      },
+      {
+        "category": "餐飲",
+        "rebateRate": 0.0246,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0123,
+        "minSpend": 0
+      },
+      {
+        "category": "超市",
+        "rebateRate": 0.0246,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0123,
+        "minSpend": 0
+      },
+      {
+        "category": "海外",
+        "rebateRate": 0.0123,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0123,
+        "minSpend": 0
+      },
+      {
+        "category": "一般支出",
+        "rebateRate": 0.0123,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0123,
+        "minSpend": 0
+      }
+    ],
+    "applePayAliases": [
+      "Marriott Bonvoy Bevy",
+      "Amex Marriott Bevy"
+    ],
+    "rebateType": "points",
+    "rebateProgram": "萬豪 Marriott Bonvoy",
+    "applePayRate": 0.0
+  },
+  {
+    "accountName": "Marriott Bonvoy Boundless",
+    "rules": [
+      {
+        "category": "旅遊",
+        "rebateRate": 0.0369,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0123,
+        "minSpend": 0
+      },
+      {
+        "category": "餐飲",
+        "rebateRate": 0.0185,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0123,
+        "minSpend": 0
+      },
+      {
+        "category": "超市",
+        "rebateRate": 0.0185,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0123,
+        "minSpend": 0
+      },
+      {
+        "category": "交通",
+        "rebateRate": 0.0185,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0123,
+        "minSpend": 0
+      },
+      {
+        "category": "一般支出",
+        "rebateRate": 0.0123,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0123,
+        "minSpend": 0
+      }
+    ],
+    "applePayAliases": [
+      "Marriott Bonvoy Boundless",
+      "Chase Marriott Boundless"
+    ],
+    "rebateType": "points",
+    "rebateProgram": "萬豪 Marriott Bonvoy",
+    "applePayRate": 0.0
+  },
+  {
+    "accountName": "Delta SkyMiles Gold",
+    "rules": [
+      {
+        "category": "餐飲",
+        "rebateRate": 0.0038,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0019,
+        "minSpend": 0
+      },
+      {
+        "category": "超市",
+        "rebateRate": 0.0038,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0019,
+        "minSpend": 0
+      },
+      {
+        "category": "旅遊",
+        "rebateRate": 0.0038,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0019,
+        "minSpend": 0
+      },
+      {
+        "category": "海外",
+        "rebateRate": 0.0019,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0019,
+        "minSpend": 0
+      },
+      {
+        "category": "一般支出",
+        "rebateRate": 0.0019,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0019,
+        "minSpend": 0
+      }
+    ],
+    "applePayAliases": [
+      "Delta SkyMiles Gold",
+      "Amex Delta Gold"
+    ],
+    "rebateType": "miles",
+    "rebateProgram": "達美 SkyMiles",
+    "applePayRate": 0.0
+  },
+  {
+    "accountName": "Delta SkyMiles Platinum",
+    "rules": [
+      {
+        "category": "餐飲",
+        "rebateRate": 0.0058,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0019,
+        "minSpend": 0
+      },
+      {
+        "category": "超市",
+        "rebateRate": 0.0058,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0019,
+        "minSpend": 0
+      },
+      {
+        "category": "旅遊",
+        "rebateRate": 0.0058,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0019,
+        "minSpend": 0
+      },
+      {
+        "category": "海外",
+        "rebateRate": 0.0019,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0019,
+        "minSpend": 0
+      },
+      {
+        "category": "一般支出",
+        "rebateRate": 0.0019,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0019,
+        "minSpend": 0
+      }
+    ],
+    "applePayAliases": [
+      "Delta SkyMiles Platinum",
+      "Amex Delta Platinum"
+    ],
+    "rebateType": "miles",
+    "rebateProgram": "達美 SkyMiles",
+    "applePayRate": 0.0
+  },
+  {
+    "accountName": "Delta SkyMiles Reserve",
+    "rules": [
+      {
+        "category": "旅遊",
+        "rebateRate": 0.0058,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0019,
+        "minSpend": 0
+      },
+      {
+        "category": "餐飲",
+        "rebateRate": 0.0058,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0019,
+        "minSpend": 0
+      },
+      {
+        "category": "海外",
+        "rebateRate": 0.0019,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0019,
+        "minSpend": 0
+      },
+      {
+        "category": "一般支出",
+        "rebateRate": 0.0019,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0019,
+        "minSpend": 0
+      }
+    ],
+    "applePayAliases": [
+      "Delta SkyMiles Reserve",
+      "Amex Delta Reserve"
+    ],
+    "rebateType": "miles",
+    "rebateProgram": "達美 SkyMiles",
+    "applePayRate": 0.0
+  },
+  {
+    "accountName": "Green Card",
+    "rules": [
+      {
+        "category": "旅遊",
+        "rebateRate": 0.0577,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0192,
+        "minSpend": 0
+      },
+      {
+        "category": "餐飲",
+        "rebateRate": 0.0577,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0192,
+        "minSpend": 0
+      },
+      {
+        "category": "交通",
+        "rebateRate": 0.0577,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0192,
+        "minSpend": 0
+      },
+      {
+        "category": "海外",
+        "rebateRate": 0.0577,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0192,
+        "minSpend": 0
+      },
+      {
+        "category": "一般支出",
+        "rebateRate": 0.0192,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0192,
+        "minSpend": 0
+      }
+    ],
+    "applePayAliases": [
+      "Amex Green",
+      "American Express Green Card"
+    ],
+    "rebateType": "points",
+    "rebateProgram": "美國運通 MR Points",
+    "applePayRate": 0.0
+  },
+  {
+    "accountName": "Blue Business Plus",
+    "rules": [
+      {
+        "category": "一般支出",
+        "rebateRate": 0.0385,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0192,
+        "minSpend": 0
+      },
+      {
+        "category": "海外",
+        "rebateRate": 0.0385,
+        "monthlyCap": 0,
+        "hasCap": false,
+        "fallbackRate": 0.0192,
+        "minSpend": 0
+      }
+    ],
+    "applePayAliases": [
+      "Blue Business Plus",
+      "Amex Blue Business Plus"
+    ],
+    "rebateType": "points",
+    "rebateProgram": "美國運通 MR Points",
+    "applePayRate": 0.0
+  }
+]
