@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="zh-HK">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>加入分賬群組 — Ledgr</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;700&display=swap');
+
+    :root {
+      --bg: #0A0A10;
+      --card: #111118;
+      --accent: #00FFCC;
+      --text: #FFFFFF;
+      --secondary: rgba(255,255,255,0.5);
+      --border: rgba(255,255,255,0.08);
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'DM Sans', sans-serif;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+      overflow: hidden;
+    }
+
+    /* 背景光暈 */
+    body::before {
+      content: '';
+      position: fixed;
+      top: -30%;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 600px;
+      height: 600px;
+      background: radial-gradient(circle, rgba(0,255,204,0.08) 0%, transparent 70%);
+      pointer-events: none;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      padding: 40px 32px;
+      max-width: 380px;
+      width: 100%;
+      text-align: center;
+      position: relative;
+      box-shadow: 0 0 60px rgba(0,255,204,0.05);
+      animation: fadeUp 0.5s ease both;
+    }
+
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    /* 頂部 accent 線 */
+    .card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 24px; right: 24px;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, var(--accent), transparent);
+      border-radius: 1px;
+    }
+
+    .logo {
+      font-family: 'DM Mono', monospace;
+      font-size: 13px;
+      color: var(--accent);
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      margin-bottom: 28px;
+      opacity: 0.8;
+    }
+
+    .emoji {
+      font-size: 52px;
+      margin-bottom: 16px;
+      display: block;
+      animation: pop 0.4s cubic-bezier(0.34,1.56,0.64,1) 0.2s both;
+    }
+
+    @keyframes pop {
+      from { transform: scale(0.5); opacity: 0; }
+      to   { transform: scale(1);   opacity: 1; }
+    }
+
+    h1 {
+      font-size: 22px;
+      font-weight: 700;
+      margin-bottom: 8px;
+      line-height: 1.3;
+    }
+
+    .subtitle {
+      font-size: 14px;
+      color: var(--secondary);
+      margin-bottom: 32px;
+      line-height: 1.6;
+    }
+
+    .btn-primary {
+      display: block;
+      width: 100%;
+      padding: 16px;
+      background: var(--accent);
+      color: #000;
+      border: none;
+      border-radius: 14px;
+      font-family: 'DM Sans', sans-serif;
+      font-size: 16px;
+      font-weight: 700;
+      cursor: pointer;
+      text-decoration: none;
+      transition: opacity 0.2s, transform 0.15s;
+      margin-bottom: 12px;
+    }
+
+    .btn-primary:active {
+      opacity: 0.85;
+      transform: scale(0.98);
+    }
+
+    .btn-secondary {
+      display: block;
+      width: 100%;
+      padding: 14px;
+      background: transparent;
+      color: var(--secondary);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      font-family: 'DM Sans', sans-serif;
+      font-size: 14px;
+      cursor: pointer;
+      text-decoration: none;
+      transition: border-color 0.2s, color 0.2s;
+    }
+
+    .btn-secondary:hover {
+      border-color: rgba(255,255,255,0.2);
+      color: var(--text);
+    }
+
+    .divider {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin: 20px 0;
+      color: var(--secondary);
+      font-size: 12px;
+    }
+
+    .divider::before, .divider::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: var(--border);
+    }
+
+    /* 下載提示（沒裝 app 時顯示）*/
+    .download-section {
+      display: none;
+      margin-top: 24px;
+      padding-top: 24px;
+      border-top: 1px solid var(--border);
+    }
+
+    .download-section.visible { display: block; }
+
+    .download-label {
+      font-size: 12px;
+      color: var(--secondary);
+      margin-bottom: 12px;
+    }
+
+    .app-store-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 10px 20px;
+      background: var(--border);
+      border-radius: 10px;
+      text-decoration: none;
+      color: var(--text);
+      font-size: 13px;
+      font-weight: 500;
+      transition: background 0.2s;
+    }
+
+    .app-store-btn:hover { background: rgba(255,255,255,0.12); }
+
+    /* group id 小標 */
+    .group-id {
+      font-family: 'DM Mono', monospace;
+      font-size: 11px;
+      color: var(--secondary);
+      margin-top: 24px;
+      opacity: 0.5;
+    }
+
+    /* 狀態：成功/失敗 */
+    .status { display: none; }
+    .status.visible {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      padding: 10px 16px;
+      border-radius: 10px;
+      font-size: 13px;
+      margin-bottom: 16px;
+    }
+    .status.redirecting {
+      background: rgba(0,255,204,0.1);
+      color: var(--accent);
+      border: 1px solid rgba(0,255,204,0.2);
+    }
+
+    /* loading spinner */
+    .spinner {
+      width: 16px; height: 16px;
+      border: 2px solid rgba(0,255,204,0.3);
+      border-top-color: var(--accent);
+      border-radius: 50%;
+      animation: spin 0.7s linear infinite;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="logo">LEDGR</div>
+
+    <span class="emoji" id="groupEmoji">💸</span>
+    <h1 id="groupName">加入分賬群組</h1>
+    <p class="subtitle" id="subtitle">你的朋友邀請你加入分賬群組<br>點擊下方按鈕用 Ledgr 開啟</p>
+
+    <div class="status redirecting" id="statusBar">
+      <div class="spinner"></div>
+      <span>正在開啟 Ledgr...</span>
+    </div>
+
+    <a class="btn-primary" id="openBtn" href="#">在 Ledgr 中開啟</a>
+
+    <div class="divider">沒有反應？</div>
+
+    <a class="btn-secondary" id="copyBtn" href="#">複製邀請連結</a>
+
+    <div class="download-section" id="downloadSection">
+      <p class="download-label">還沒有 Ledgr？先下載 app</p>
+      <a class="app-store-btn" href="https://apps.apple.com/app/ledgr" target="_blank">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/>
+        </svg>
+        App Store 下載
+      </a>
+    </div>
+
+    <p class="group-id" id="groupIdLabel"></p>
+  </div>
+
+  <script>
+    // 從 URL 參數取得 group ID
+    const params = new URLSearchParams(window.location.search);
+    const groupId = params.get('id');
+    const shortId = groupId ? groupId.substring(0, 8).toUpperCase() : null;
+
+    const deepLink = groupId ? `ledgr://join/${groupId}` : null;
+
+    // 更新 UI
+    if (shortId) {
+      document.getElementById('groupIdLabel').textContent = `群組代碼：${shortId}`;
+    }
+
+    // 設定按鈕
+    const openBtn = document.getElementById('openBtn');
+    const copyBtn = document.getElementById('copyBtn');
+    const statusBar = document.getElementById('statusBar');
+    const downloadSection = document.getElementById('downloadSection');
+
+    if (deepLink) {
+      openBtn.href = deepLink;
+
+      // 頁面載入後自動嘗試跳轉
+      setTimeout(() => {
+        statusBar.classList.add('visible');
+        window.location.href = deepLink;
+
+        // 2秒後如果還在頁面，說明沒裝 app
+        setTimeout(() => {
+          statusBar.style.display = 'none';
+          downloadSection.classList.add('visible');
+        }, 2000);
+      }, 600);
+    } else {
+      // 沒有 group ID，顯示錯誤
+      document.getElementById('groupName').textContent = '連結無效';
+      document.getElementById('subtitle').textContent = '這個邀請連結有問題\n請向朋友索取新的連結';
+      openBtn.style.display = 'none';
+      copyBtn.style.display = 'none';
+    }
+
+    // 複製連結
+    copyBtn.addEventListener('click', (e) => {
+      e.preventDefault();
+      if (deepLink) {
+        navigator.clipboard.writeText(deepLink).then(() => {
+          copyBtn.textContent = '✓ 已複製！';
+          setTimeout(() => { copyBtn.textContent = '複製邀請連結'; }, 2000);
+        });
+      }
+    });
+  </script>
+</body>
+</html>
